@@ -1,0 +1,55 @@
+
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, minmax(0, 1fr));
+            grid-template-rows: repeat(8, minmax(0, 1fr));
+            width: 400px;
+            height: 400px;
+            transform: rotate(0deg);
+        }
+
+        .piece.white {
+            color: white;
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 4));
+        }
+
+        .piece.black {
+            color: black;
+        }
+
+        .flipped {
+            transform: rotate(180deg);
+        }
+
+        .square {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .square.light {
+            background-color: #a0b9b5;
+        }
+
+        .square.dark {
+            background-color: #b40620;
+        }
+
+        .piece {
+            font-size: 36px;
+            cursor: pointer;
+        }
+
+        .piece.draggable {
+            cursor: grab;
+        }
+
+        .dragging {
+            opacity: 0.5;
+        }
+
+        /* Rotate pieces for black player */
+        .flipped .piece {
+            transform: rotate(180deg);
+        }
+ 

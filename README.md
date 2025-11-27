@@ -1,5 +1,3 @@
-
-```markdown
 # ♟️ Real-Time Multiplayer Chess Game  
 ### Built with **Node.js**, **Express.js**, **Socket.IO**, and **Chess.js**
 

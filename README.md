@@ -13,6 +13,9 @@
 ### Black Player View  
 ![Chessboard Black](/assests/chess2.png)
 
+### Both Player View  
+![Both Player View](/assests/chess3.png)
+
 ---
 
 ## 🚀 Features

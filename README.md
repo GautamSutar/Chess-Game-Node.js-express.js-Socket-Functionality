@@ -35,7 +35,6 @@
 | Socket.IO | Real-time events |
 | Chess.js | Logic & validation |
 | HTML / CSS | UI |
-| TailwindCSS | Styling |
 
 ---
 
@@ -43,15 +42,25 @@
 
 ```
 
-Chess-Game/
+Chess-Game-Node.js-express.js-Socket-Functionality/
 │
 ├── public/
-│   ├── index.html
-│   ├── css/style.css
-│   └── js/chessgame.js
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── chessgame.js
+│   │
+│   └── (static assets like images if needed)
 │
-├── server.js
-└── package.json
+├── views/
+│   └── index.ejs
+│
+├── .gitignore
+├── app.js
+├── package.json
+└── package-lock.json
+
 
 ````
 
@@ -61,8 +70,8 @@ Chess-Game/
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/Chess-Game.git
-cd Chess-Game
+https://github.com/GautamSutar/Chess-Game-Node.js-express.js-Socket-Functionality.git
+cd Chess-Game-Node.js-express.js-Socket-Functionality
 ````
 
 ### 2. Install Dependencies
